@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заложить золото</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top-part-wrap">
+            <div class="top-part">
+                <div class="left-part">
+                    <a href="index.html"><img class="brand-logo-img" src="images/header/brand-logo.svg" alt="Логотип бренда"></a>
+                    <div class="select-city-wrap">
+                        <img class="icon-img" src="images/header/icons/label-location-icon.svg" alt="Метка локации">
+                        <a class="select-city-link">Владивосток</a>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <div class="contacts-wrap">
+                        <div class="social-wrap">
+                            <img class="social-icon" src="images/header/icons/whatsapp-icon.svg" title="Whatsapp" alt="Иконка Whatsapp">
+                            <img class="social-icon" src="images/header/icons/telegram-icon.svg" title="Telegram" alt="Иконка Telegram">
+                        </div>
+                        <div class="phone-wrap">
+                            <div class="phone-number">8 800 33 33 571</div>
+                            <div class="phone-text">Бесплатный звонок по России</div>
+                        </div>
+                    </div>
+                    <button class="call-back-btn additional-button">Заказать обратный звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-navigation-panel-wrap">
+            <div class="header-navigation-panel">
+                <nav class="nav-menu">
+                    <ul class="nav-menu-ul">
+                        <li><a class="nav-menu-link active">Займы под залог</a>
+                            <ul class="nav-menu-drop-list">
+                                <span class="drop-list-shadow-line"></span>
+                                <li><a class="nav-menu-drop-link" href="#">Тарифы</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">Консультация</a></li>
+                                <li><a class="nav-menu-drop-link" href="tarif-skupka.html">Тариф «Скупка»</a></li>
+                                <li><a class="nav-menu-drop-link" href="zalozhit-shubu.html">Заложить шубу</a></li>
+                                <li><a class="nav-menu-drop-link" href="zalozhit-serebro.html">Заложить серебро</a></li>
+                                <li><a class="nav-menu-drop-link" href="zalozhit-zoloto.html">Заложить золото</a></li>
+                                <li><a class="nav-menu-drop-link" href="zalozhit-brillianty.html">Заложить бриллианты</a></li>
+                                <li><a class="nav-menu-drop-link" href="zalozhit-yuvelirnoye-izdeliye.html">Заложить ювелирное изделие</a></li>
+                                <li><a class="nav-menu-drop-link" href="vopros-i-otvet.html">Вопрос и ответ</a></li>
+                                <li><a class="nav-menu-drop-link" href="sposoby-oplaty.html">Способы оплаты</a></li>
+                                <li><a class="nav-menu-drop-link" href="adresa-ofisov.html">Адреса офисов</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-menu-link" href="#">Виды займов</a></li>
+                        <li><a class="nav-menu-link" href="#">Оплата процентов</a></li>
+                        <li><a class="nav-menu-link">Онлайн оценка</a>
+                            <ul class="nav-menu-drop-list">
+                                <span class="drop-list-shadow-line"></span>
+                                <li><a class="nav-menu-drop-link" href="#">Займы под залог</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">Виды займов</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">Оплата процентов</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">Онлайн оценка</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">Магазин</a></li>
+                                <li><a class="nav-menu-drop-link" href="#">О компании</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-menu-link" href="#">Магазин</a></li>
+                    </ul>
+                </nav>
+                <div class="lk-wrap">
+                    <img class="icon-img" src="images/header/icons/lk-icon.svg" alt="Иконка личного кабинета">
+                    <a class="lk-link" href="#">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-mobile-wrap">
+        <div class="header-mobile">
+            <a href="index.html"><img class="brand-logo-mobile-img" src="images/header/brand-logo.svg" alt="Логотип бренда"></a>
+            <div class="header-mobile-navigation-panel">
+                <div class="header-mobile-contacts-wrap">
+                    <img class="social-icon" src="images/header/icons/whatsapp-icon.svg" alt="Иконка Whatsapp">
+                    <img class="social-icon" src="images/header/icons/telegram-icon.svg" alt="Иконка Telegram">
+                    <div class="phone-icon">
+                        <img class="phone-no-fill-icon" src="images/header/icons/phone-no-fill-icon.svg" alt="Иконка Телефона">
+                        <img class="phone-fill-icon" src="images/header/icons/phone-fill-icon.svg" alt="Иконка Телефона">
+                    </div>
+                </div>
+                <img src="images/header/icons/lk-icon.svg" alt="Иконка личного кабинета">
+                <button class="burger-btn">
+                    <img class="open-menu-icon" src="images/header/icons/menu-open-btn-icon.svg" alt="Иконка открытия меню бургера">
+                    <img class="close-menu-icon" src="images/header/icons/menu-close-btn-icon.svg" alt="Иконка закрытия меню бургера">
+                </button>
+            </div>
+        </div>
+        <div class="menu-burger">
+            <nav class="nav-menu-mobile">
+                <ul>
+                    <li><a class="nav-menu-mobile-drop-item">Займы под залог
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.8 9.60002L12 14.4L7.19999 9.60002" stroke="#2A2B2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <ul class="nav-menu-mobile-drop-list">
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Тарифы</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Консультация</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="tarif-skupka.html">Тариф «Скупка»</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="zalozhit-shubu.html">Заложить шубу</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="zalozhit-serebro.html">Заложить серебро</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="zalozhit-zoloto.html">Заложить золото</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="zalozhit-brillianty.html">Заложить бриллианты</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="zalozhit-yuvelirnoye-izdeliye.html">Заложить ювелирное изделие</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="vopros-i-otvet.html">Вопрос и ответ</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="sposoby-oplaty.html">Способы оплаты</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="adresa-ofisov.html">Адреса офисов</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-menu-mobile-link" href="#">Виды займов</a></li>
+                    <li><a class="nav-menu-mobile-link" href="#">Оплата процентов</a></li>
+                    <li><a class="nav-menu-mobile-drop-item">Онлайн оценка
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.8 9.60002L12 14.4L7.19999 9.60002" stroke="#2A2B2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <ul class="nav-menu-mobile-drop-list">
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Займы под залог</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Виды займов</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Оплата процентов</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Онлайн оценка</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">Магазин</a></li>
+                            <li><a class="nav-menu-mobile-drop-link" href="#">О компании</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-menu-mobile-link" href="#">Магазин</a></li>
+                </ul>
+            </nav>
+            <div class="city-phone-lk-call-block">
+                <div class="user-links">
+                    <div class="select-city-wrap">
+                        <img class="icon-img" src="images/header/icons/label-location-icon.svg" alt="Метка локации">
+                        <a class="select-city-link">Владивосток</a>
+                    </div>
+                    <div class="phone-wrap">
+                        <div class="phone-number">8 800 33 33 571</div>
+                        <div class="phone-text">Бесплатный звонок по России</div>
+                    </div>
+                    <div class="lk-wrap">
+                        <img class="icon-img" src="images/header/icons/lk-icon.svg" alt="Иконка личного кабинета">
+                        <a class="lk-link" href="#">Личный кабинет</a>
+                    </div>
+                </div>
+                <button class="call-back-btn additional-button">Заказать обратный звонок</button>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-select-city">
+        <div class="popup-container">
+            <div class="header-block-static-gap">
+                <h2 class="header-block-header">Выбор города</h2>
+                <span class="header-block-separator"></span>
+            </div>
+            <div class="popup-content">
+                <div class="custom-input-wrap">
+                    <input class="custom-input find-city-input" type="text" placeholder="Найти город...">
+                    <h6 class="custom-input-header">Найти город...</h6>
+                    <img class="search-icon" src="images/icons/search-icon.svg" alt="">
+                </div>
+                <ul class="select-city-list">
+                    <li class="select-city-item">Москва</li>
+                    <li class="select-city-item">Магнитогорск</li>
+                    <li class="select-city-item">Владивосток</li>
+                    <li class="select-city-item">Красноярск</li>
+                    <li class="select-city-item">Владикавказ</li>
+                    <li class="select-city-item">Уфа</li>
+                    <li class="select-city-item">Челябинск</li>
+                </ul>
+            </div>
+            <button class="popup-close-btn"><img src="images/icons/popup-close-icon.svg" alt=""></button>
+        </div>
+    </div>
+    <div class="popup popup-callback">
+        <div class="popup-container">
+            <div class="header-block-static-gap">
+                <h2 class="header-block-header">Заказать обратный звонок</h2>
+                <span class="header-block-separator"></span>
+                <span class="header-block-text">Оставьте ваши контактные данные и мы перезвоним вам в рабочее время</span>
+            </div>
+            <div class="popup-content">
+                <div class="custom-input-wrap">
+                    <input class="custom-input" type="text" placeholder="Имя">
+                    <h6 class="custom-input-header">Имя</h6>
+                </div>
+                <div class="custom-input-wrap">
+                    <input class="custom-input" type="text" placeholder="Телефон">
+                    <h6 class="custom-input-header">Телефон</h6>
+                </div>
+                <div class="checkbox-wrap">
+                    <label>
+                        <input class="real-checkbox" type="checkbox">
+                        <div class="custom-checkbox">
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.99945 10L9.0014 15L16.9995 6.99976" stroke="#1D7D4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </label>
+                    <span class="checkbox-text">Я подтверждаю, что ознакомлен и <a class="checkbox-link" href="#">согласен с предоставленными мне документами и информацией, в том числе по вопросам предоставления займов</a></span>
+                </div>
+                <button class="popup-callback-btn accent-green-button">
+                    <span class="accent-button-content">
+                        Заказать звонок
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5676 6.90434C11.2141 6.48006 10.5835 6.42274 10.1592 6.7763C9.73496 7.12987 9.67764 7.76043 10.0312 8.18471L11.5676 6.90434ZM14.335 11.7872L15.1032 12.4274C15.4122 12.0565 15.4122 11.5179 15.1032 11.147L14.335 11.7872ZM10.0312 15.3897C9.67764 15.814 9.73496 16.4445 10.1592 16.7981C10.5835 17.1517 11.2141 17.0943 11.5676 16.67L10.0312 15.3897ZM10.0312 8.18471L13.5668 12.4274L15.1032 11.147L11.5676 6.90434L10.0312 8.18471ZM13.5668 11.147L10.0312 15.3897L11.5676 16.67L15.1032 12.4274L13.5668 11.147ZM12 3.39999C16.7497 3.39999 20.6 7.25034 20.6 12H22.6C22.6 6.14577 17.8542 1.39999 12 1.39999V3.39999ZM20.6 12C20.6 16.7496 16.7497 20.6 12 20.6V22.6C17.8542 22.6 22.6 17.8542 22.6 12H20.6ZM12 20.6C7.25038 20.6 3.40002 16.7496 3.40002 12H1.40002C1.40002 17.8542 6.14581 22.6 12 22.6V20.6ZM3.40002 12C3.40002 7.25034 7.25037 3.39999 12 3.39999V1.39999C6.1458 1.39999 1.40002 6.14578 1.40002 12H3.40002Z" fill="#ffffff"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <button class="popup-close-btn"><img src="images/icons/popup-close-icon.svg" alt=""></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="banner">
+            <div class="banner-container">
+                <span class="banner-path">
+                    <span class="banner-path-item">Главная</span>
+                    <span class="banner-path-separator"></span>
+                    <span class="banner-path-item">Займы</span>
+                </span>
+                <div class="banner-text-content">
+                    <h1 class="banner-header">Заложить золото</h1>
+                    <h6 class="banner-text">Получите заем на карту или наличными под залог ювелирных изделий из драгоценного металла и драгоценных камней.</h6>
+                </div>
+            </div>
+            <div class="banner-ellipse">
+                <img class="banner-img" src="images/banner/ring.png" alt="">
+            </div>
+        </div>
+        <div class="flex-container gap-56">
+            <div class="information-row">
+                <div class="information price-list-gold">
+                    <div class="price-list-row">
+                        <span class="price-list-header">Проба золота</span>
+                        <span class="price-list-header-divider"></span>
+                        <span class="price-list-header">Цена за грамм</span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">375°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">1 155</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">500°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">1 540</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">583°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">1 800</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">585°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">1 800</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">750°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">2 310</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">850°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">2 615</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">900°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">2 770</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                    <div class="price-list-row">
+                        <span class="proba-gold">958°</span>
+                        <span class="price-gold-wrap">
+                            <span class="price-gold">2 950</span>
+                            <span class="price-gold-symbol-rub">₽</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="information-block">
+                    <div class="information-top">
+                        <h2 class="information-top-header">Какие изделия мы принимаем?</h2>
+                        <ul class="information-list">
+                            <p class="information-text">Вы можете сдать под залог ювелирные украшения из золота, серебра и белого золота:</p>
+                            <li>цепочку, кулон, серьги, брошь, браслет, колье, запонки, монеты</li>
+                            <li>зеркальце, пудреницу, вечерние сумочки, предметы для сервировки стола из серебра</li>
+                        </ul>
+                    </div>
+                    <div class="information-bottom">
+                        <p class="information-text">Изделия из платины не принимаем.</p>
+                        <h3 class="information-bottom-header">Как проверяют пробу?</h3>
+                        <p class="information-text">Изделия с идеальными клеймами государственного образца могут быть подвергнуты только внешнему осмотру. Если у специалиста возникает необходимость дополнительной проверки, изнутри изделия снимается очень тонкий слой металла. В особых случаях делается неглубокий распил изнутри в одном или нескольких местах в зависимости от вида изделия. Проверка производится только с согласия клиента.</p>
+                    </div>
+                    <button class="pawn-gold-btn accent-green-button">
+                        <span class="accent-button-content">
+                            Заложить золото
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5676 6.90434C11.2141 6.48006 10.5835 6.42274 10.1592 6.7763C9.73496 7.12987 9.67764 7.76043 10.0312 8.18471L11.5676 6.90434ZM14.335 11.7872L15.1032 12.4274C15.4122 12.0565 15.4122 11.5179 15.1032 11.147L14.335 11.7872ZM10.0312 15.3897C9.67764 15.814 9.73496 16.4445 10.1592 16.7981C10.5835 17.1517 11.2141 17.0943 11.5676 16.67L10.0312 15.3897ZM10.0312 8.18471L13.5668 12.4274L15.1032 11.147L11.5676 6.90434L10.0312 8.18471ZM13.5668 11.147L10.0312 15.3897L11.5676 16.67L15.1032 12.4274L13.5668 11.147ZM12 3.39999C16.7497 3.39999 20.6 7.25034 20.6 12H22.6C22.6 6.14577 17.8542 1.39999 12 1.39999V3.39999ZM20.6 12C20.6 16.7496 16.7497 20.6 12 20.6V22.6C17.8542 22.6 22.6 17.8542 22.6 12H20.6ZM12 20.6C7.25038 20.6 3.40002 16.7496 3.40002 12H1.40002C1.40002 17.8542 6.14581 22.6 12 22.6V20.6ZM3.40002 12C3.40002 7.25034 7.25037 3.39999 12 3.39999V1.39999C6.1458 1.39999 1.40002 6.14578 1.40002 12H3.40002Z" fill="#ffffff"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="three-steps-block">
+                <div class="header-block">
+                    <h2 class="header-block-header">Три шага для получения займа</h2>
+                    <span class="header-block-separator"></span>
+                    <span class="header-block-text">Ваши преимущества в нашем сервисе:</span>
+                </div>
+                <div class="three-steps-cards">
+                    <div class="step-card zaim">
+                        <span class="step-card-number">1</span>
+                        <span class="step-card-text">Посетите офис в шаговой доступности, вам понадобится только паспорт и предмет залога</span>
+                        <img class="step-card-icon" src="images/cards/cards-icons/koltso-90x90.png" alt="">
+                        <span class="step-card-ellipse"></span>
+                    </div>
+                    <div class="step-card zaim">
+                        <span class="step-card-number">2</span>
+                        <span class="step-card-text">Опытный специалист проведет оценку изделия и подберет самые выгодные условия кредитования</span>
+                        <img class="step-card-icon" src="images/cards/cards-icons/otsenka-90x90.png" alt="">
+                        <span class="step-card-ellipse"></span>
+                    </div>
+                    <div class="step-card zaim">
+                        <span class="step-card-number">3</span>
+                        <span class="step-card-text">Заключите договор займа и получите деньги на именную банковскую карту или наличными</span>
+                        <img class="step-card-icon" src="images/cards/cards-icons/denezhka-90x90.png" alt="">
+                        <span class="step-card-ellipse"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cost-impact-block">
+                <div class="header-block">
+                    <h2 class="header-block-header">Что влияет на оценочную стоимость<br>ювелирного изделия?</h2>
+                    <span class="header-block-separator"></span>
+                    <span class="header-block-text">Ваши преимущества в нашем сервисе:</span>
+                </div>
+                <div class="cost-impact-cards">
+                    <div class="cost-impact-card">
+                        <span class="cost-impact-card-text">Текущая биржевая цена на золото</span>
+                        <img class="cost-impact-card-icon" src="images/cards/cards-icons/check-broken.png" alt="">
+                    </div>
+                    <div class="cost-impact-card">
+                        <span class="cost-impact-card-text">Наличие пробы, государственного клейма, именника</span>
+                        <img class="cost-impact-card-icon" src="images/cards/cards-icons/check-broken.png" alt="">
+                    </div>
+                    <div class="cost-impact-card">
+                        <span class="cost-impact-card-text">Вес изделия и вес недрагоценных вставок</span>
+                        <img class="cost-impact-card-icon" src="images/cards/cards-icons/check-broken.png" alt="">
+                    </div>
+                    <div class="cost-impact-card">
+                        <span class="cost-impact-card-text">Внешнее<br>состояние</span>
+                        <img class="cost-impact-card-icon" src="images/cards/cards-icons/check-broken.png" alt="">
+                    </div>
+                    <div class="cost-impact-card">
+                        <span class="cost-impact-card-text">Действующие тарифы на сегодняшний день</span>
+                        <img class="cost-impact-card-icon" src="images/cards/cards-icons/check-broken.png" alt="">
+                    </div>
+                </div>
+                <button class="pawn-gold-btn accent-green-button">
+                    <span class="accent-button-content">
+                        Заложить золото
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5676 6.90434C11.2141 6.48006 10.5835 6.42274 10.1592 6.7763C9.73496 7.12987 9.67764 7.76043 10.0312 8.18471L11.5676 6.90434ZM14.335 11.7872L15.1032 12.4274C15.4122 12.0565 15.4122 11.5179 15.1032 11.147L14.335 11.7872ZM10.0312 15.3897C9.67764 15.814 9.73496 16.4445 10.1592 16.7981C10.5835 17.1517 11.2141 17.0943 11.5676 16.67L10.0312 15.3897ZM10.0312 8.18471L13.5668 12.4274L15.1032 11.147L11.5676 6.90434L10.0312 8.18471ZM13.5668 11.147L10.0312 15.3897L11.5676 16.67L15.1032 12.4274L13.5668 11.147ZM12 3.39999C16.7497 3.39999 20.6 7.25034 20.6 12H22.6C22.6 6.14577 17.8542 1.39999 12 1.39999V3.39999ZM20.6 12C20.6 16.7496 16.7497 20.6 12 20.6V22.6C17.8542 22.6 22.6 17.8542 22.6 12H20.6ZM12 20.6C7.25038 20.6 3.40002 16.7496 3.40002 12H1.40002C1.40002 17.8542 6.14581 22.6 12 22.6V20.6ZM3.40002 12C3.40002 7.25034 7.25037 3.39999 12 3.39999V1.39999C6.1458 1.39999 1.40002 6.14578 1.40002 12H3.40002Z" fill="#ffffff"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="offers-swiper-block">
+            <div class="header-block">
+                <h2 class="header-block-header">Предложения для вас</h2>
+                <span class="header-block-separator"></span>
+                <span class="header-block-text">Ваши преимущества в нашем сервисе:</span>
+            </div>
+            <div class="swiper-container offers-swiper-container">
+                <div class="swiper-wrapper-wrap">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="offers-swiper-slide">
+                                <div class="zaim-card bg-technozaim">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Технозайм</h4>
+                                        <span class="zaim-card-description-text">Оформите заем под залог техники</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/technozaim.png" alt="">
+                                </div>
+                                <div class="zaim-card bg-christmas-mood">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Новогоднее настроение</h4>
+                                        <span class="zaim-card-description-text">Новогодний розыгрыш подарков</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/novogodneye-nastroyeniye.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="offers-swiper-slide">
+                                <div class="zaim-card bg-newbie">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Новичок</h4>
+                                        <span class="zaim-card-description-text">Только для новых клиентов при первом обращении</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                                </div>
+                                <div class="zaim-card bg-vip">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Vip</h4>
+                                        <span class="zaim-card-description-text">Создаем условия для взлета ваших возможностей</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/vip.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="offers-swiper-slide">
+                                <div class="zaim-card bg-social">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Социальный</h4>
+                                        <span class="zaim-card-description-text">Особый подход к каждому клиенту</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                                </div>
+                                <div class="zaim-card bg-pension">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Пенсионный</h4>
+                                        <span class="zaim-card-description-text">Нам приятно заботиться о Вас</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="offers-swiper-slide">
+                                <div class="zaim-card bg-loyal">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Верный</h4>
+                                        <span class="zaim-card-description-text">Мы высоко ценим Ваше доверие, и всегда рядом</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                                </div>
+                                <div class="zaim-card bg-youth">
+                                    <div class="zaim-card-info">
+                                        <div class="zaim-card-percent-bage">
+                                            <span class="zaim-card-percent">0,167</span>
+                                            <span class="zaim-card-percent-text">в день</span>
+                                        </div>
+                                    </div>
+                                    <div class="zaim-card-description">
+                                        <h4 class="zaim-card-header">Молодежный</h4>
+                                        <span class="zaim-card-description-text">Позвольте себе больше с нашей поддержкой</span>
+                                    </div>
+                                    <span class="zaim-card-small-bage">Займы</span>
+                                    <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 9L18 15L12 21" stroke="#2A2B2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 9L18 15L12 21" stroke="#2A2B2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="offers-swiper-pagination"></div>
+            </div>
+            <div class="swiper-container zaim-cards-swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-technozaim">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Технозайм</h4>
+                                <span class="zaim-card-description-text">Оформите заем под залог техники</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/technozaim.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-christmas-mood">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Новогоднее настроение</h4>
+                                <span class="zaim-card-description-text">Новогодний розыгрыш подарков</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/novogodneye-nastroyeniye.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-newbie">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Новичок</h4>
+                                <span class="zaim-card-description-text">Только для новых клиентов при первом обращении</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-vip">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Vip</h4>
+                                <span class="zaim-card-description-text">Создаем условия для взлета ваших возможностей</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/vip.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-social">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Социальный</h4>
+                                <span class="zaim-card-description-text">Особый подход к каждому клиенту</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-pension">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Пенсионный</h4>
+                                <span class="zaim-card-description-text">Нам приятно заботиться о Вас</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-loyal">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Верный</h4>
+                                <span class="zaim-card-description-text">Мы высоко ценим Ваше доверие, и всегда рядом</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="zaim-card bg-youth">
+                            <div class="zaim-card-info">
+                                <div class="zaim-card-percent-bage">
+                                    <span class="zaim-card-percent">0,167</span>
+                                    <span class="zaim-card-percent-text">в день</span>
+                                </div>
+                            </div>
+                            <div class="zaim-card-description">
+                                <h4 class="zaim-card-header">Молодежный</h4>
+                                <span class="zaim-card-description-text">Позвольте себе больше с нашей поддержкой</span>
+                            </div>
+                            <span class="zaim-card-small-bage">Займы</span>
+                            <img class="zaim-card-img" src="images/cards/general.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-left-part">
+                <div class="footer-section">
+                    <a class="footer-light-link" href="#">О компании</a>
+                    <a class="footer-light-link" href="#">Новости</a>
+                    <a class="footer-light-link" href="vopros-i-otvet.html">Вопросы ответы</a>
+                    <a class="footer-light-link" href="#">Блог</a>
+                    <a class="footer-light-link" href="#">Торги 585</a>
+                </div>
+                <span class="footer-separator"></span>
+                <div class="footer-section">
+                    <a class="footer-dark-link" href="index.html">Все виды займов</a>
+                    <a class="footer-dark-link" href="#">Швейцарские часы</a>
+                    <a class="footer-dark-link" href="#">Технику</a>
+                    <a class="footer-dark-link" href="zalozhit-shubu.html">Шубу</a>
+                    <a class="footer-dark-link" href="zalozhit-zoloto.html">Золото</a>
+                </div>
+                <div class="footer-section">
+                    <a class="footer-dark-link" href="zalozhit-yuvelirnoye-izdeliye.html">Заложить</a>
+                    <a class="footer-dark-link" href="#">Правовая информация</a>
+                    <a class="footer-dark-link" href="#">Раскрытие информации эмитентом</a>
+                </div>
+            </div>
+            <div class="footer-right-part">
+                <div class="phone-wrap">
+                    <div class="phone-number">8 800 33 33 571</div>
+                    <div class="phone-text">Бесплатный звонок по России</div>
+                </div>
+                <div class="social-wrap">
+                    <img class="icon-img" src="images/footer-icons/whatsapp-icon.svg" alt="Иконка Whatsapp">
+                    <img class="icon-img" src="images/footer-icons/telegram-icon.svg" alt="Иконка Telegram">
+                </div>
+                <div class="select-city-wrap">
+                    <img class="icon-img" src="images/footer-icons/label-location-icon.svg" alt="Метка локации">
+                    <a class="select-city-link">Владивосток</a>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="subfooter-container">
+                <span class="subfooter-text">© 2022 АО "Ларец ломбард"</span>
+                <span class="subfooter-text">Компания внесена в государственный реестр ломбардов ЦБ РФ (№ 629)</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/filter-city.js"></script>
+</body>
+</html>
